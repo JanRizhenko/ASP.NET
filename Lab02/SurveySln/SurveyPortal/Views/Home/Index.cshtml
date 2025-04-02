@@ -1,0 +1,30 @@
+﻿@model SurveyPortal.Models.ViewModels.SurveyListViewModel
+
+<div class="row">
+    @foreach (var p in Model.Surveys)
+    {
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title">@p.Title</h2>
+                    <p class="card-text">@p.Description</p>
+                    <p><strong>Created:</strong> @p.CreatedAt.ToString("yyyy-MM-dd HH:mm:ss")</p>
+                    <span class="badge bg-@(p.IsActive ? "success" : "secondary")">
+                        @(p.IsActive ? "Active" : "Over")
+                    </span>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<nav>
+    <ul class="pagination justify-content-center">
+        @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PagingInfo.CurrentPage ? "active" : "")">
+                <a class="page-link" asp-controller="Home" asp-action="Index" asp-route-page="@i">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab02\\surveysln\\surveyportal\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab02\\surveysln\\surveyportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab02\\surveysln\\surveyportal\\models\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\models\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab02\\surveysln\\surveyportal\\models\\viewmodels\\paginginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\models\\viewmodels\\paginginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab02\\surveysln\\surveyportal\\models\\viewmodels\\surveylistviewmodel.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\models\\viewmodels\\surveylistviewmodel.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab02\\surveysln\\surveyportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab02\\surveysln\\surveyportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab02\\surveysln\\surveyportal\\models\\isurveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\models\\isurveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab02\\surveysln\\surveyportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\SeedData.cs",
+              "RelativeDocumentMoniker": "SurveyPortal\\Models\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\SeedData.cs*",
+              "RelativeToolTip": "SurveyPortal\\Models\\SeedData.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T00:03:22.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T23:57:47.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Program.cs",
+              "RelativeDocumentMoniker": "SurveyPortal\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Program.cs",
+              "RelativeToolTip": "SurveyPortal\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:52:37.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SurveyListViewModel.cs.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\ViewModels\\SurveyListViewModel.cs.cs",
+              "RelativeDocumentMoniker": "SurveyPortal\\Models\\ViewModels\\SurveyListViewModel.cs.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\ViewModels\\SurveyListViewModel.cs.cs",
+              "RelativeToolTip": "SurveyPortal\\Models\\ViewModels\\SurveyListViewModel.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:38:43.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagingInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\ViewModels\\PagingInfo.cs",
+              "RelativeDocumentMoniker": "SurveyPortal\\Models\\ViewModels\\PagingInfo.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\ViewModels\\PagingInfo.cs",
+              "RelativeToolTip": "SurveyPortal\\Models\\ViewModels\\PagingInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:36:43.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Survey.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\Survey.cs",
+              "RelativeDocumentMoniker": "SurveyPortal\\Models\\Survey.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\Survey.cs",
+              "RelativeToolTip": "SurveyPortal\\Models\\Survey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:17:07.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISurveyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\ISurveyRepository.cs",
+              "RelativeDocumentMoniker": "SurveyPortal\\Models\\ISurveyRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Models\\ISurveyRepository.cs",
+              "RelativeToolTip": "SurveyPortal\\Models\\ISurveyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:12:38.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SurveyPortal\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SurveyPortal\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:09:45.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab02\\SurveySln\\SurveyPortal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T23:09:43.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
