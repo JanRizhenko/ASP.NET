@@ -1,0 +1,16 @@
+﻿@model SurveyPortal.Models.Survey
+
+<div class="col-md-6 mb-4">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2 class="card-title">@Model.Title</h2>
+            <p class="card-text">@Model.Description</p>
+            <p><strong>Created:</strong> @Model.CreatedAt.ToString("yyyy-MM-dd HH:mm:ss")</p>
+            <span class="badge bg-@(Model.IsActive ? "success" : "secondary")">
+                @(Model.IsActive ? "Active" : "Over")
+            </span>
+            <br />
+            <a asp-action="Details" asp-route-id="@Model.SurveyID" class="btn btn-outline-primary mt-3">Details</a>
+        </div>
+    </div>
+</div>

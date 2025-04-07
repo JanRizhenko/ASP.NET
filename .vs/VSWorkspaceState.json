@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Lab02",
+    "\\Lab02\\SurveySln\\SurveyPortal",
+    "\\Lab02\\SurveySln\\SurveyPortal\\Views",
+    "\\Lab02\\SurveySln\\SurveyPortal\\Views\\Shared",
+    "\\Lab03",
+    "\\Lab03\\SurveySln",
+    "\\Lab03\\SurveySln\\SurveyPortal",
+    "\\Lab03\\SurveySln\\SurveyPortal\\Views",
+    "\\Lab03\\SurveySln\\SurveyPortal\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Lab03\\SurveySln\\SurveyPortal\\Views\\Shared\\_Layout.cshtml",
+  "PreviewInSolutionExplorer": false
+}
