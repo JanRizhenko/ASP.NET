@@ -5,10 +5,12 @@
 }
 
 <div class="card mb-3">
-    <div class="card-header">
-        <h5>Categories</h5>
+    <div class="card-header p-0">
+        <button class="btn w-100 text-start text-dark" data-bs-toggle="collapse" data-bs-target="#categoryList" aria-expanded="false" aria-controls="categoryList">
+            <h5 class="mb-0 px-3 py-2">Categories</h5>
+        </button>
     </div>
-    <div class="list-group">
+    <div class="list-group collapse" id="categoryList">
         <a asp-controller="Home" asp-action="Index"
            asp-route-company="@selectedCompany"
            class="list-group-item list-group-item-action @(selectedCategory == null ? "active" : "")">
@@ -28,10 +30,12 @@
 </div>
 
 <div class="card">
-    <div class="card-header">
-        <h5>Companies</h5>
+    <div class="card-header p-0">
+        <button class="btn w-100 text-start text-dark" data-bs-toggle="collapse" data-bs-target="#companyList" aria-expanded="false" aria-controls="companyList">
+            <h5 class="mb-0 px-3 py-2">Companies</h5>
+        </button>
     </div>
-    <div class="list-group">
+    <div class="list-group collapse" id="companyList">
         <a asp-controller="Home" asp-action="Index"
            asp-route-category="@selectedCategory"
            class="list-group-item list-group-item-action @(selectedCompany == null ? "active" : "")">

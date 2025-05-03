@@ -1,0 +1,20 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using SurveyPortal.Models.Identity.Entities
+
+@inject SignInManager<User> signInManager;
+
+@if (signInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <a class="nav-link text-light" asp-controller="Accounts" asp-action="Logout">Logout</a>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-light btn btn-primary me-2" asp-controller="Accounts" asp-action="Login">Login</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-light btn btn-primary me-2" asp-controller="Accounts" asp-action="Register">Register</a>
+    </li>
+}

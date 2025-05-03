@@ -4,6 +4,7 @@ using SurveyPortal.Models.Survey;
 using SurveyPortal.Models.Survey.Survey;
 using Microsoft.AspNetCore.Identity;
 using SurveyPortal.Models.Identity;
+using SurveyPortal.Models.Identity.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,14 +30,25 @@ builder.Services.AddDbContext<AppIdentityDbContext>(opts =>
     var connectionString = builder.Configuration.GetConnectionString("IdentityConnection");
     opts.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-    .AddEntityFrameworkStores<AppIdentityDbContext>()
-    .AddDefaultTokenProviders();
+
+builder.Services.AddIdentity<User, IdentityRole>(options =>
+{
+    options.Password.RequiredLength = 8;
+    options.Password.RequireDigit = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireUppercase = true;
+    options.Password.RequireNonAlphanumeric = false;
+    options.User.RequireUniqueEmail = true;
+})
+.AddEntityFrameworkStores<AppIdentityDbContext>()
+.AddDefaultTokenProviders();
 
 
 
 
 builder.Services.AddScoped<ISurveyRepository, EFSurveyRepository>();
+
+builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 
@@ -56,5 +68,17 @@ app.MapControllerRoute
     );
 
 SeedData.EnsurePopulated(app);
+
+var scope = app.Services.CreateScope();
+var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+string[] roles = { "Visitor" };
+
+foreach (var role in roles)
+{
+    if (!await roleManager.RoleExistsAsync(role))
+    {
+        await roleManager.CreateAsync(new IdentityRole(role));
+    }
+}
 
 app.Run();

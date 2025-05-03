@@ -458,3 +458,5 @@ C:\Users\Admin\Desktop\VisualStudio\ASP.NET\Lab05\SurveySln\SurveyPortal\obj\Deb
 C:\Users\Admin\Desktop\VisualStudio\ASP.NET\Lab05\SurveySln\SurveyPortal\obj\Debug\net8.0\SurveyPo.628DFA3F.Up2Date
 C:\Users\Admin\Desktop\VisualStudio\ASP.NET\Lab05\SurveySln\SurveyPortal\obj\Debug\net8.0\SurveyPortal.genruntimeconfig.cache
 C:\Users\Admin\Desktop\VisualStudio\ASP.NET\Lab05\SurveySln\SurveyPortal\obj\Debug\net8.0\ref\SurveyPortal.dll
+C:\Users\Admin\Desktop\VisualStudio\ASP.NET\Lab05\SurveySln\SurveyPortal\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Desktop\VisualStudio\ASP.NET\Lab05\SurveySln\SurveyPortal\bin\Debug\net8.0\AutoMapper.dll

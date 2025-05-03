@@ -1,5 +1,41 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SurveyPortal/css/account.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\account.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yoSOnLA3ZX9aIY7mxidq7/85ncm3nM3suzpu3dxsO44="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"291"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yoSOnLA3ZX9aIY7mxidq7/85ncm3nM3suzpu3dxsO44=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 13:04:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SurveyPortal/css/account.evm01wbtlu.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\account.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"evm01wbtlu"},{"Name":"integrity","Value":"sha256-yoSOnLA3ZX9aIY7mxidq7/85ncm3nM3suzpu3dxsO44="},{"Name":"label","Value":"_content/SurveyPortal/css/account.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"291"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yoSOnLA3ZX9aIY7mxidq7/85ncm3nM3suzpu3dxsO44=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 13:04:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SurveyPortal/js/login-validation.9p74qcyif9.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\login-validation.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9p74qcyif9"},{"Name":"integrity","Value":"sha256-/anwELj71HAJFyAEPlgtScdHjZRn2ZACyST7pZz9Evo="},{"Name":"label","Value":"_content/SurveyPortal/js/login-validation.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1167"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022/anwELj71HAJFyAEPlgtScdHjZRn2ZACyST7pZz9Evo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 13:24:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SurveyPortal/js/login-validation.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\login-validation.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/anwELj71HAJFyAEPlgtScdHjZRn2ZACyST7pZz9Evo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1167"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022/anwELj71HAJFyAEPlgtScdHjZRn2ZACyST7pZz9Evo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 13:24:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SurveyPortal/js/register-validation.aiwge9kww3.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\register-validation.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aiwge9kww3"},{"Name":"integrity","Value":"sha256-biUsPhXX60S3vuOYxpZ9qos60YeiBWXjL07eDGfLwTY="},{"Name":"label","Value":"_content/SurveyPortal/js/register-validation.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1922"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022biUsPhXX60S3vuOYxpZ9qos60YeiBWXjL07eDGfLwTY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 10:48:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SurveyPortal/js/register-validation.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\register-validation.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-biUsPhXX60S3vuOYxpZ9qos60YeiBWXjL07eDGfLwTY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1922"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022biUsPhXX60S3vuOYxpZ9qos60YeiBWXjL07eDGfLwTY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 10:48:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SurveyPortal/lib/bootstrap/css/bootstrap-grid.bqjiyaj88i.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

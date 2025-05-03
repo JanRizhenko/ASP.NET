@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\wwwroot\\js\\login-validation.js",
+      "PackagePath": "staticwebassets\\js\\login-validation.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\wwwroot\\js\\register-validation.js",
+      "PackagePath": "staticwebassets\\js\\register-validation.js"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },

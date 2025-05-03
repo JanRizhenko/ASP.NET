@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\views\\companies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\companies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\models\\identity\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\models\\identity\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\models\\identity\\dto\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\models\\identity\\dto\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\wwwroot\\js\\login-validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\wwwroot\\js\\login-validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\views\\shared\\components\\navigationmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\shared\\components\\navigationmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|c:\\users\\admin\\desktop\\visualstudio\\asp.net\\lab05\\surveysln\\surveyportal\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCC72541-CC95-4F2C-BE16-A7C57E3732F5}|SurveyPortal\\SurveyPortal.csproj|solutionrelative:surveyportal\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +70,171 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\appsettings.json",
-              "RelativeDocumentMoniker": "SurveyPortal\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\appsettings.json",
-              "RelativeToolTip": "SurveyPortal\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-01T20:19:29.624Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Companies\\Index.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Companies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Companies\\Index.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Companies\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T13:31:06.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Program.cs",
-              "RelativeDocumentMoniker": "SurveyPortal\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Program.cs",
-              "RelativeToolTip": "SurveyPortal\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Companies\\Details.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Companies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Companies\\Details.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Companies\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T13:31:02.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "login-validation.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\wwwroot\\js\\login-validation.js",
+              "RelativeDocumentMoniker": "SurveyPortal\\wwwroot\\js\\login-validation.js",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\wwwroot\\js\\login-validation.js",
+              "RelativeToolTip": "SurveyPortal\\wwwroot\\js\\login-validation.js",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T13:24:06.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "account.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\wwwroot\\css\\account.css",
+              "RelativeDocumentMoniker": "SurveyPortal\\wwwroot\\css\\account.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\wwwroot\\css\\account.css",
+              "RelativeToolTip": "SurveyPortal\\wwwroot\\css\\account.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-03T12:55:45.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:48:50.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "SurveyPortal\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "SurveyPortal\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:09:30.877Z",
+              "WhenOpened": "2025-05-03T12:37:12.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Shared\\Components\\NavigationMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Shared\\Components\\NavigationMenu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Shared\\Components\\NavigationMenu\\Default.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Shared\\Components\\NavigationMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:36:04.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Accounts\\Register.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Accounts\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Accounts\\Register.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Accounts\\Register.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:27:54.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:26:55.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:22:17.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppIdentityDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Models\\Identity\\AppIdentityDbContext.cs",
-              "RelativeDocumentMoniker": "SurveyPortal\\Models\\Identity\\AppIdentityDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Models\\Identity\\AppIdentityDbContext.cs",
-              "RelativeToolTip": "SurveyPortal\\Models\\Identity\\AppIdentityDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Accounts\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Accounts\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T20:33:19.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserForLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Models\\Identity\\DTO\\UserForLoginDto.cs",
+              "RelativeDocumentMoniker": "SurveyPortal\\Models\\Identity\\DTO\\UserForLoginDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Models\\Identity\\DTO\\UserForLoginDto.cs",
+              "RelativeToolTip": "SurveyPortal\\Models\\Identity\\DTO\\UserForLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:05:48.464Z",
+              "WhenOpened": "2025-05-03T13:02:27.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_AccountLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeDocumentMoniker": "SurveyPortal\\Views\\Shared\\_AccountLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeToolTip": "SurveyPortal\\Views\\Shared\\_AccountLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T12:22:06.416Z",
               "EditorCaption": ""
             }
           ]

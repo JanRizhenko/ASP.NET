@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YAuNAXed0uo=",
+  "dgSpecHash": "HMKI5VqlFqg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Desktop\\VisualStudio\\ASP.NET\\Lab05\\SurveySln\\SurveyPortal\\SurveyPortal.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",
