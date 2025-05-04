@@ -1,1 +1,0 @@
-C:\Users\Admin\Desktop\VisualStudio\ASP.NET\Lab05\SurveySln\SurveyPortal\wwwroot\js\user-validation.js
