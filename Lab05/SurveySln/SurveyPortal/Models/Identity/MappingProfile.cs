@@ -8,6 +8,9 @@ namespace SurveyPortal.Models.Identity
     {
         public MappingProfile() 
         {
+            CreateMap<User, UserProfileDto>();
+            CreateMap<UserProfileDto, User>();
+
             CreateMap<UserForRegistrationDto, User>()
                 .ForMember(u => u.UserName, opt => opt.MapFrom(x => x.Email));
         }

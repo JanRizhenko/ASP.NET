@@ -5,6 +5,7 @@ using SurveyPortal.Models.Survey.Survey;
 using Microsoft.AspNetCore.Identity;
 using SurveyPortal.Models.Identity;
 using SurveyPortal.Models.Identity.Entities;
+using SurveyPortal.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,8 +48,15 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
 
 
 builder.Services.AddScoped<ISurveyRepository, EFSurveyRepository>();
+builder.Services.AddScoped<IFileService, FileService>();
 
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Limits.MaxRequestBodySize = 10 * 1024 * 1024;
+});
 
 var app = builder.Build();
 

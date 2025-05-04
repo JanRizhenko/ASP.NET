@@ -160,5 +160,122 @@ namespace SurveyPortal.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Profile()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            var userProfileDto = _mapper.Map<UserProfileDto>(user);
+            return View(userProfileDto);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Profile(UserProfileDto model, IFormFile profilePicture)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            user.FirstName = model.FirstName;
+            user.LastName = model.LastName;
+            user.PhoneNumber = model.PhoneNumber;
+            user.DateOfBirth = model.DateOfBirth;
+            user.Address = model.Address;
+            user.City = model.City;
+            user.State = model.State;
+            user.PostalCode = model.PostalCode;
+            user.Country = model.Country;
+
+            if (user.Email != model.Email)
+            {
+                var setEmailResult = await _userManager.SetEmailAsync(user, model.Email);
+                if (!setEmailResult.Succeeded)
+                {
+                    foreach (var error in setEmailResult.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+                    return View(model);
+                }
+                var setUsernameResult = await _userManager.SetUserNameAsync(user, model.Email);
+                if (!setUsernameResult.Succeeded)
+                {
+                    foreach (var error in setUsernameResult.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+                    return View(model);
+                }
+            }
+
+            if (profilePicture != null && profilePicture.Length > 0)
+            {
+                try
+                {
+                    var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+                    var fileExtension = Path.GetExtension(profilePicture.FileName).ToLowerInvariant();
+
+                    if (!allowedExtensions.Contains(fileExtension))
+                    {
+                        ModelState.AddModelError("ProfilePicture", "Only image files (jpg, jpeg, png, gif) are allowed.");
+                        return View(model);
+                    }
+
+                    if (profilePicture.Length > 5 * 1024 * 1024)
+                    {
+                        ModelState.AddModelError("ProfilePicture", "File size cannot exceed 5MB.");
+                        return View(model);
+                    }
+
+                    var uploadsDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "profiles");
+                    if (!Directory.Exists(uploadsDir))
+                    {
+                        Directory.CreateDirectory(uploadsDir);
+                    }
+
+                    var fileName = $"{user.Id}_{Guid.NewGuid()}{fileExtension}";
+                    var filePath = Path.Combine(uploadsDir, fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await profilePicture.CopyToAsync(stream);
+                    }
+
+                    user.ProfilePictureUrl = $"/uploads/profiles/{fileName}";
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", $"Error uploading file: {ex.Message}");
+                    return View(model);
+                }
+            }
+
+            var result = await _userManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                TempData["SuccessMessage"] = "Your profile has been updated successfully!";
+                return RedirectToAction("Profile");
+            }
+
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+
+            return View(model);
+        }
     }
 }
