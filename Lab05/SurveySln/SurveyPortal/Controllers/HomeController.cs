@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SurveyPortal.Models.Survey;
@@ -16,6 +17,8 @@ namespace SurveyPortal.Controllers
         {
             _repository = repository;
         }
+
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Survey model)
@@ -34,6 +37,7 @@ namespace SurveyPortal.Controllers
 
             return RedirectToAction("Details", new { id = model.SurveyID });
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             var companies = _repository.Companies
@@ -58,7 +62,8 @@ namespace SurveyPortal.Controllers
             _repository.DeleteSurvey(survey);
             return RedirectToAction("Index");
         }
-        
+
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Update(Survey model)
@@ -86,6 +91,8 @@ namespace SurveyPortal.Controllers
 
             return RedirectToAction("Details", new { id = model.SurveyID });
         }
+
+        [Authorize(Roles = "Admin")]
         public IActionResult Update(long id)
         {
             var survey = _repository.Surveys.FirstOrDefault(s => s.SurveyID == id);
@@ -153,6 +160,7 @@ namespace SurveyPortal.Controllers
 
             return View(model);
         }
+        [Authorize]
         public IActionResult Details(long id)
         {
             var survey = _repository.Surveys
@@ -167,6 +175,7 @@ namespace SurveyPortal.Controllers
             return View(survey);
         }
         [HttpPost]
+        [Authorize]
         public IActionResult SaveSurveyAnswer(long SurveyID, string Answer)
         {
             var survey = _repository.Surveys.FirstOrDefault(s => s.SurveyID == SurveyID);

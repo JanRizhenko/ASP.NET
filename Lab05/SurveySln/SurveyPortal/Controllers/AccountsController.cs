@@ -3,18 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 using SurveyPortal.Models.Identity.Entities;
 using AutoMapper;
 using SurveyPortal.Models.Identity.DTO;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SurveyPortal.Controllers
 {
     public class AccountsController : Controller
     {
-        private readonly SignInManager<User> _signInManager; // Fixed variable name
+        private readonly SignInManager<User> _signInManager;
         private readonly UserManager<User> _userManager;
         private readonly IMapper _mapper;
 
         public AccountsController(SignInManager<User> signInManager, UserManager<User> userManager, IMapper mapper)
         {
-            _signInManager = signInManager; // Fixed assignment
+            _signInManager = signInManager;
             _mapper = mapper;
             _userManager = userManager;
         }
@@ -119,6 +120,7 @@ namespace SurveyPortal.Controllers
         }
 
         [HttpGet]
+        [HttpGet]
         public IActionResult Register()
         {
             return View();
@@ -155,12 +157,16 @@ namespace SurveyPortal.Controllers
             return RedirectToAction("Login", "Accounts");
         }
 
+
+        [Authorize]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
 
+
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> Profile()
         {
@@ -174,6 +180,8 @@ namespace SurveyPortal.Controllers
             return View(userProfileDto);
         }
 
+
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Profile(UserProfileDto model, IFormFile profilePicture)
@@ -276,6 +284,11 @@ namespace SurveyPortal.Controllers
             }
 
             return View(model);
+        }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }

@@ -16,7 +16,10 @@
         }
     }
 </div>
-<a asp-action="Create" class="btn btn-primary w-100 mb-3 p-3">Create Survey</a>
+@if (User.IsInRole("Admin"))
+{
+    <a asp-action="Create" class="btn btn-primary w-100 mb-3 p-3">Create Survey</a>
+}
 <nav>
     <ul class="pagination justify-content-center">
         @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)

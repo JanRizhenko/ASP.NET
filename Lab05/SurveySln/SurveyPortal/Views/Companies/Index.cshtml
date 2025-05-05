@@ -6,9 +6,12 @@
 
 <h1>Companies</h1>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Create New Company</a>
-</p>
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New Company</a>
+    </p>
+}
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     @foreach (var company in Model)
@@ -25,7 +28,10 @@
                         <small class="text-muted">Created: @company.CreatedAt.ToString("MMM dd, yyyy", System.Globalization.CultureInfo.InvariantCulture).</small>
                         <div>
                             <a asp-action="Details" asp-route-id="@company.CompanyID" class="btn btn-sm btn-primary">Details</a>
-                            <a asp-action="Edit" asp-route-id="@company.CompanyID" class="btn btn-sm btn-secondary">Edit</a>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <a asp-action="Edit" asp-route-id="@company.CompanyID" class="btn btn-sm btn-secondary">Edit</a>
+                            }
                         </div>
                     </div>
                 </div>

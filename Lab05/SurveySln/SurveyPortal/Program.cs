@@ -1,16 +1,15 @@
-using Microsoft.EntityFrameworkCore;
-using SurveyPortal.Models;
-using SurveyPortal.Models.Survey;
-using SurveyPortal.Models.Survey.Survey;
 using Microsoft.AspNetCore.Identity;
-using SurveyPortal.Models.Identity;
+using Microsoft.EntityFrameworkCore;
 using SurveyPortal.Models.Identity.Entities;
+using SurveyPortal.Models.Identity;
+using SurveyPortal.Models.Survey.Survey;
+using SurveyPortal.Models;
 using SurveyPortal.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();
 
+builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>
@@ -44,8 +43,11 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
 .AddEntityFrameworkStores<AppIdentityDbContext>()
 .AddDefaultTokenProviders();
 
-
-
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Accounts/Login";
+    options.AccessDeniedPath = "/Accounts/AccessDenied";
+});
 
 builder.Services.AddScoped<ISurveyRepository, EFSurveyRepository>();
 builder.Services.AddScoped<IFileService, FileService>();
@@ -61,25 +63,21 @@ builder.WebHost.ConfigureKestrel(options =>
 var app = builder.Build();
 
 app.UseStaticFiles();
-
 app.UseSession();
-
-
 
 app.MapDefaultControllerRoute();
 
-app.MapControllerRoute
-    (
+app.MapControllerRoute(
     name: "pagination",
     pattern: "Home/Index/{page:int}",
     defaults: new { Controller = "Home", action = "Index" }
-    );
+);
 
 SeedData.EnsurePopulated(app);
 
 var scope = app.Services.CreateScope();
 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-string[] roles = { "Visitor" };
+string[] roles = { "Visitor", "Admin" };
 
 foreach (var role in roles)
 {

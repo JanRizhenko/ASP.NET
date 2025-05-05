@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SurveyPortal.Models.Company;
 using SurveyPortal.Models.Survey;
@@ -60,11 +61,14 @@ namespace SurveyPortal.Controllers
             return View(company);
         }
 
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
         }
 
+
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Company company)
@@ -83,6 +87,8 @@ namespace SurveyPortal.Controllers
             return View(company);
         }
 
+
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(long id)
         {
             var company = _repository.Companies.FirstOrDefault(c => c.CompanyID == id);
@@ -95,6 +101,8 @@ namespace SurveyPortal.Controllers
             return View(company);
         }
 
+
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Company company)
@@ -118,6 +126,8 @@ namespace SurveyPortal.Controllers
 
             return View(company);
         }
+
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(long id)
         {
             var company = _repository.Companies
@@ -132,6 +142,8 @@ namespace SurveyPortal.Controllers
             return View(company);
         }
 
+
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(long id)

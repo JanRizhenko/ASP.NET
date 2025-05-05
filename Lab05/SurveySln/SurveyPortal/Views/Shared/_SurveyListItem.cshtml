@@ -14,7 +14,10 @@
             <br />
             <div class="d-flex justify-content-between align-items-center mt-3">
                 <a asp-action="Details" asp-route-id="@Model.SurveyID" class="btn btn-outline-primary">Details</a>
-                <a asp-action="Update" asp-route-id="@Model.SurveyID" class="btn btn-outline-secondary">Edit</a>
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-action="Update" asp-route-id="@Model.SurveyID" class="btn btn-outline-secondary">Edit</a>
+                }
             </div>
             
         </div>
